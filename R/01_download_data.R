@@ -37,3 +37,16 @@ cat("\n")
 cat("Rows:", nrow(raw_data), "\n")
 cat("Columns:", ncol(raw_data), "\n")
 cat("Raw dataset successfully imported.\n")
+
+# Inspect the imported data -----------------------------------------------
+
+head(raw_data)
+
+glimpse(raw_data)
+
+summary(raw_data)
+
+names(raw_data)
+
+cat("\nRows:", nrow(raw_data), "\n")
+cat("Columns:", ncol(raw_data), "\n")
