@@ -156,6 +156,6 @@ The project produces:
 
 ## Author
 
-Tom Maby
+Thomas Dowson
 
 Statistician with interests in Bayesian statistics, statistical modelling, R programming and data visualisation.
