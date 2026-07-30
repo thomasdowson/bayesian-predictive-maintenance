@@ -116,3 +116,17 @@ failure_model <-
     cores = parallel::detectCores()
     
   )
+
+#SUMMARY
+
+summary(failure_model)
+#save model
+
+saveRDS(
+  failure_model,
+  here(
+    "outputs",
+    "models",
+    "failure_model.rds"
+  )
+)
